@@ -7,20 +7,38 @@
     <title>Yonder Yosakoi - Festivals</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/yosakoi_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div id="logo">
             <img 
+                class="desktop tablet"
                 src="images/logo.png" 
                 alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
             >
+            <img 
+            class="mobile"
+            src="images/logo_background.png" 
+            alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+        >
         </div>
         <div id="banner">
             <img 
-                src="images/banner-notext_desktop.jpg" 
+                class="desktop tablet"
+                src="images/banner-notext_desktop.jpg"
                 alt="a bright banner featuring a bridge, hairpin, and naruko, with the word 'yosakoi' in brushstroke at lower left"
             >
+            <div 
+                class="mobile"
+                id="whiteband"
+            >&nbsp;</div>
+            <div 
+                class="mobile"
+                id="redband"
+            >&nbsp;</div> 
         </div>
         <nav>
             <ul class="desktop">
@@ -39,7 +57,7 @@
                 <li><a href="learn.html">Learn the Dance</a></li>
                 <li><a href="accessories.html">Accessories</a></li>
             </ul>
-            <ul class="mobile">
+            <ul class="tablet">
                 <li><a href="index.html">About</a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="terms.html">Terms</a></li>
@@ -49,6 +67,25 @@
                 <li><a href="learn.html">Learn the Dance</a></li>
                 <li><a href="accessories.html">Accessories</a></li>
             </ul>
+            <div class="mobile">
+                <input type="checkbox" id="hamburger-input" class="burger-shower">
+                <label id="hamburger-menu" for="hamburger-input">&#8801;
+                <nav id="sidebar-menu">
+                <h3>Touch Again to Close</h3>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="terms.html" >Terms</a></li>
+                    <li><a href="listen.html">Listen</a></li>
+                    <li><a href="watch.html">Watch</a></li>
+                    <li><a href="visit.html">Festivals</a></li>
+                    <li><a href="learn.html">Dance Steps</a></li></span>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </nav>
+            </label>
+            <div class="overlay"></div>
+            </div>
         </nav>
     </header>
     <div id = "main">
@@ -58,7 +95,7 @@
                     src="images/me_team1.jpg"
                     style="width:22vw; float:right;">
             </figure>
-            <figure class = "mobile">
+            <figure class = "tablet">
                 <img 
                     src="images/me_team1.jpg"
                     style="width:33vw; float:right;margin-top:5vw;">
@@ -67,7 +104,7 @@
             <p>
                 There are many yosakoi festivals, both in Japan and more recently internationally!
             </p>
-            <p class = "mobile"> 
+            <p class = "tablet"> 
                 Are you itching to pull together a team and join in the fun? Check out the 
                 <a href="rules.html">rules of participation</a> at the Kochi Yosakoi Festival!
             </p>

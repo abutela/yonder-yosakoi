@@ -7,20 +7,38 @@
     <title>Yonder Yosakoi - Accessories</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/yosakoi_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div id="logo">
             <img 
+                class="desktop tablet"
                 src="images/logo.png" 
                 alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
             >
+            <img 
+            class="mobile"
+            src="images/logo_background.png" 
+            alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+        >
         </div>
         <div id="banner">
             <img 
+                class="desktop tablet"
                 src="images/banner-notext_desktop.jpg"
                 alt="a bright banner featuring a bridge, hairpin, and naruko, with the word 'yosakoi' in brushstroke at lower left"
             >
+            <div 
+                class="mobile"
+                id="whiteband"
+            >&nbsp;</div>
+            <div 
+                class="mobile"
+                id="redband"
+            >&nbsp;</div> 
         </div>
         <nav>
             <ul class="desktop">
@@ -39,7 +57,7 @@
                 <li><a href="learn.html">Learn the Dance</a></li>
                 <li><a href="accessories.html">Accessories</a></li>
             </ul>
-            <ul class="mobile">
+            <ul class="tablet">
                 <li><a href="index.html">About</a></li>
                 <li><a href="history.html">History</a></li>
                 <li><a href="terms.html">Terms</a></li>
@@ -49,6 +67,25 @@
                 <li><a href="learn.html">Learn the Dance</a></li>
                 <li><a href="accessories.html">Accessories</a></li>
             </ul>
+            <div class="mobile">
+                <input type="checkbox" id="hamburger-input" class="burger-shower">
+                <label id="hamburger-menu" for="hamburger-input">&#8801;
+                <nav id="sidebar-menu">
+                <h3>Touch Again to Close</h3>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="terms.html" >Terms</a></li>
+                    <li><a href="listen.html">Listen</a></li>
+                    <li><a href="watch.html">Watch</a></li>
+                    <li><a href="visit.html">Festivals</a></li>
+                    <li><a href="learn.html">Dance Steps</a></li></span>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </nav>
+            </label>
+            <div class="overlay"></div>
+            </div>
         </nav>
     </header>
     <div id = "main">
@@ -64,6 +101,12 @@
                 <img 
                     src="images/sousou_tabi.jpg"
                     style="width:20vw; float:right;"
+                    alt="color tabi shoes featuring mt. fuji. Credit to Sou Sou.">
+            </figure>
+            <figure class = "tablet">
+                <img 
+                    src="images/sousou_tabi.jpg"
+                    style="width:40vw; float:right;"
                     alt="color tabi shoes featuring mt. fuji. Credit to Sou Sou.">
             </figure>
             <figure class = "mobile">
@@ -93,6 +136,11 @@
                 each pair of shoes sold. Both double-split and 5-toe socks will work here, so wear what's comfortable!
             </p>
             <h2>Costumes</h2>
+            <figure>
+                <img 
+                    src="images/unknown_sarara.jpg"
+                    alt="A group dances in matching purple pants,black jackets, and gold sash">
+            </figure>
             <p>
                 Yosakoi festival costumes are, for the most part, whatever you want them to be. Teams can be seen in traditional Japanese garb as well as salsa dresses,
                 punk rock outfits, Princess Jasmine-esque costumes, and simply matching T-shirts.  What typically ties a team together is everyone wearing either one matching
@@ -108,6 +156,11 @@
                 (e.g., a cheap plastic-y Halloween costume may not be your best friend for this application.)
             </p>
             <h2>Naruko</h2>
+            <figure>
+                <img 
+                    src="images/naruko_2.png"
+                    alt="A hand holds a natural-finish naruko with a team logo in black">
+            </figure>
             <p>
                 Quite literally essential for anyone to say they're dancing yosakoi. As the team often wears one costume style,
                 they also typically match their naruko. Naruko are small, handheld, wooden clackers, with a slim grip, broad face, and 3 sticks
