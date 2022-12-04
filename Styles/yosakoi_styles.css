@@ -1,3 +1,7 @@
+/*              */
+/* Global styles*/
+/*              */
+
 header{
     position: fixed;
     width: 100%;
@@ -12,6 +16,7 @@ header{
     height: 13.2vh;
 }
 
+/*header font styles*/
 h1{
     font-size:7vw;
     font-weight:bold;
@@ -30,6 +35,65 @@ h3{
     padding-bottom:4%;
 }
 
+/*article styling*/
+article{
+    text-align: left;
+    font-size: 16pt;
+    border: 2px rgb(188, 12, 6) solid;
+    border-radius:10px;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top:7%;
+    margin-bottom:7%;
+    padding: 2% 5% 3% 5%;
+    width:85%;
+    line-height:150%;
+}
+
+p{
+    padding-bottom:2%;
+}
+
+/*Video and image styling*/
+iframe{
+    width: 60vw;
+    height: 52vw;
+    border-top:rgb(93, 4, 4) 5px solid;
+    border-bottom: rgb(93, 4, 4) 5px solid;
+    border-left: rgb(93, 4, 4) 50px solid;
+    border-right: rgb(93, 4, 4) 50px solid;
+}
+
+.video{
+    text-align: center;
+}
+
+figure{
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*datalist styling*/
+dl{
+    margin-left: 3%;
+}
+
+dt{
+    font-weight:bold;
+    font-size:larger;
+}
+
+dd{
+    margin-bottom:4%;
+}
+
+/*footer styling*/
 footer{
     background: white;
     opacity:0.9;
@@ -43,15 +107,18 @@ footer{
     display:block;
 }
 
-/*mobile styles*/
-@media(max-width:481px){
+
+/********************/
+/*  Mobile Styling  */
+/*__________________*/
+
+@media(max-width:530px){
     #logo{
         width:20vw;
     }
 
     #whiteband{
         float:left;
-        background-color:lime;
         width:100%;
         height:22vw;
         margin-top:-21%;
@@ -165,66 +232,12 @@ footer{
     }
     /*end hamburger menu styling*/
 
-    article{
-        display:inline-block;
-        text-align: left;
-        font-size: 16pt;
-        border: 2px rgb(188, 12, 6) solid;
-        border-radius:10px;
-        margin-left:2%;
-        margin-right:2%;
-        margin-top:7%;
-        margin-bottom:7%;
-        padding: 2% 5% 3% 5%;
-        width:85%;
-        line-height:150%;
-    }
-    p{
-        padding-bottom:2%;
-    }
-    .video{
-        text-align: center;
-    }
-    iframe{
-        width: 60vw;
-        height: 52vw;
-        border-top:rgb(93, 4, 4) 5px solid;
-        border-bottom: rgb(93, 4, 4) 5px solid;
-        border-left: rgb(93, 4, 4) 50px solid;
-        border-right: rgb(93, 4, 4) 50px solid;
-    }
     .audio{
         height: 30vw;
     }
-    figure{
-        width:fit-content;
-        margin-left:auto;
-        margin-right:auto;
-    }
 
-    img {
-        width: 100%;
-        height: 100%;
-    }
-
-    dl{
-        margin-left: 3%;
-    }
-    dt{
-        font-weight:bold;
-        font-size:larger;
-    }
-    dd{
-        margin-bottom:4%;
-    }
-
-    #visit{
-        margin-left:10vw;
-        list-style:circle;
-    }
-
-    #visit li{
-        font-weight: bold;
+    article{
+        display:inline-block;
     }
 
     nav a:link{
@@ -236,7 +249,8 @@ footer{
     nav a:visited{
         color: rgb(249, 189, 189);
     }
-        
+    
+    /*display elements by class*/
     .mobile{
         display:inline;
     }
@@ -248,76 +262,14 @@ footer{
     }
 }
 
-/*Tablet styles*/
-@media (min-width:482px) and (max-width:1024px){
+/********************/
+/*  Tablet Styling  */
+/*__________________*/
+
+@media (min-width:531px) and (max-width:1024px){
     header{
-        position: fixed;
-        width: 100%;
-        justify-content: center;
         display:grid;
         grid-template-columns:25% 75%;
-    }
-    h1{
-        font-size:4vw;
-        font-weight:bold;
-        padding-bottom: 4%;
-    }
-    h2{
-        font-size:3vw;
-        font-weight:bold;
-        padding-bottom: 2%;
-        line-height:100%;
-
-    }
-    h3{
-        font-size:2.5vw;
-        font-weight:bold;
-        padding-bottom:4%;
-    }
-    #main{
-        display:block;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-top: 15%;
-        width: 100%;
-        height: 13.2vh;
-    }
-    article{
-        text-align: left;
-        font-size: 16pt;
-        border: 2px rgb(188, 12, 6) solid;
-        border-radius:10px;
-        margin:auto;
-        margin-top:7%;
-        padding: 2% 5% 3% 5%;
-        width:85%;
-        line-height:150%;
-    }
-    p{
-        padding-bottom:2%;
-    }
-    .video{
-        text-align: center;
-    }
-    iframe{
-        width: 72vw;
-        height: 52vw;
-        border-top:rgb(93, 4, 4) 5px solid;
-        border-bottom: rgb(93, 4, 4) 5px solid;
-        border-left: rgb(93, 4, 4) 50px solid;
-        border-right: rgb(93, 4, 4) 50px solid;
-    }
-    .audio{
-        height: 40vw;
-    }
-    figure{
-        width:fit-content;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
     }
 
     #logo{
@@ -331,6 +283,7 @@ footer{
         background-color:rgb(188,12,6);
         border-right:rgb(93, 4, 4) 1px solid;
     }
+
     #banner{
         margin-left:-15.9%;
         width: 117%;
@@ -339,21 +292,45 @@ footer{
         border-bottom:rgb(93, 4, 4) 1px solid;
     }
 
-    dl{
-        margin-left: 3%;
-    }
-    dt{
-        font-weight:bold;
-        font-size:larger;
-    }
-    dd{
-        margin-bottom:4%;
+    /*header font styling*/
+    h1{
+        font-size:4vw;
     }
 
+    h2{
+        font-size:3vw;
+
+    }
+
+    h3{
+        font-size:2.5vw;
+    }
+
+    /*article styling*/
+    article{
+        display:inline-block;
+        margin-left: 2%;
+        margin-top:10%;
+        padding: 2% 5% 1% 5%;
+        width: 85%;
+    }
+
+    /*image and video styling*/
+
+    iframe{
+        width: 72vw;
+        height: 52vw;
+    }
+
+    .audio{
+        height: 40vw;
+    }
+
+    /*navigation styling*/
     nav{
         position: fixed;
         width: 100%;
-        height: 5%;
+        height: 7vw;
         margin-top: 13.2vw;
         background:rgb(188, 12, 6);
         grid-template-columns: 8fr;
@@ -400,88 +377,80 @@ footer{
     nav a:active{
         color:rgb(255, 234, 0);
     }
-        
+
+    /*footer styling*/    
     footer{
         background: rgb(188,12,6);
-        position:fixed;
-        width: 100%;
-        bottom: 0;
-        color:rgb(239, 166, 164);
-        text-align: center;
-        padding-bottom: 0.5%;
+        opacity:unset;
         padding-top: 0.5%;
     }
+
+    /*display elements by class*/
     .mobile{
         display:none;
     }
+
     .desktop{
         display:none;
     }
+
     .tablet{
         display:inline;
     }
 }
 
-/*Desktop styles*/
+/*********************/
+/*  Desktop Styling  */
+/*___________________*/
+
 @media (min-width:1025px){
     header{
-        position: fixed;
-        width: 100%;
-        justify-content: center;
         display:grid;
         grid-template-columns:25% 75%;
     }
-    h1{
-        font-size:3vw;
-        padding-bottom: 4%;
-    }
-    h2{
-        font-size:2.5vw;
-        padding-bottom: 4%;
-        line-height:100%;
 
-    }
-    h3{
-        font-size:2vw;
-        padding-bottom:4%;
-    }
     #main{
-        display:block;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         padding-left:16%;
         padding-top: 15%;
         width: 80%;
-        height: 13.2vh;
     }
 
-    p{
-        padding-bottom:2%;
+    h1{
+        font-size:3vw;
     }
+
+    h2{
+        font-size:2.5vw;
+
+    }
+
+    h3{
+        font-size:2vw;
+    }
+
     article{
-        text-align: left;
-        border: 2px rgb(188, 12, 6) solid;
-        border-radius:10px;
+        display:inline-block;
         margin-left: 5%;
-        padding: 2% 5% 7% 5%;
+        margin-top:0%;
+        padding: 2% 5% 1% 5%;
         width: 80%;
-        line-height:150%;
     }
-    .video{
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
     iframe{
         width: 38vw;
         height: 28vw;
-        border-top:rgb(93, 4, 4) 5px solid;
-        border-bottom: rgb(93, 4, 4) 5px solid;
-        border-left: rgb(93, 4, 4) 50px solid;
-        border-right: rgb(93, 4, 4) 50px solid;
     }
+
+    .video{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .audio{
-        height: 5vw;
+        height: 8vw;
     }
+
     #logo{
         width:11.3vw;
         height:11.3vw;
@@ -509,11 +478,6 @@ footer{
     }
     dd{
         margin-bottom:1%;
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
     }
 
     nav{
@@ -565,8 +529,7 @@ footer{
         color:rgb(255, 234, 0);
     }
 
-    /* Styling the dropdown menu*/
-    /* Style The Dropdown Button */
+    /* Dropdown menu styling*/
     .dropbtn {
     color: white;
     cursor: pointer;
@@ -578,15 +541,11 @@ footer{
         color: yellow;
     }
     
-    /* The container <div> - needed to position the dropdown content */
     .dropdown {
     position: relative;
     display: inline-block;
     }
-
-
     
-    /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
     display: none;
     position: absolute;
@@ -597,36 +556,33 @@ footer{
     box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
     }
     
-    /* Links inside the dropdown */
     .dropdown-content a {
     color: white;
     text-decoration: none;
     display: block;
     }
     
-    /* Change color of dropdown links on hover */
     .dropdown-content a:hover {
         color: yellow;
     }
     
-    /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
     display: block;
     color: yellow;
     }
 
+    /*end dropdown styles*/
+
     footer{
         background: rgb(188,12,6);
-        position:fixed;
+        opacity:1;
         width: 89%;
-        bottom: 0;
-        color:rgb(239, 166, 164);
-        text-align: center;
-        padding-bottom: 0.5%;
         padding-top: 0.5%;
         margin-top: 1%;
         margin-left:11%;
     }
+
+    /*Display objects by class*/
     .mobile{
         display:none;
     }
