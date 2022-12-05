@@ -135,103 +135,6 @@ footer{
             rgb(188,12,6))
     }
 
-    /*Hamburger menu settings*/
-    .overlay{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity .35s, visibility .35s, height .35s;
-        overflow: hidden;
-        background: black;
-        z-index: -1;
-    }
-
-    #hamburger-input{
-        display: none;
-      }
-      
-    #hamburger-menu {
-        position: fixed;
-        top: 15px;
-        left: 85%;
-        width: 50px;
-        height: 50px;
-        display: none;
-        border: none;
-        padding: 0px;
-        margin: 0px;
-        font-size:42pt;
-        color:white;
-    }
-    
-    #hamburger-menu #sidebar-menu {
-        visibility: hidden;
-        position: fixed;
-        top: 15px;
-        right: -250px;
-        height: 75%;
-        border-radius:15px;
-        transition: 0.3s;
-    }
-    
-    #hamburger-menu h3 {
-        color:  rgb(239, 166, 164);
-        font-size: 2.5vw;
-        text-align:left;
-        padding-top:10%;
-    }
-    
-    #hamburger-menu ul {
-        padding-top:10%;
-        padding-bottom:5%;
-        margin-top:5%;
-        padding-left:0;
-    }
-    
-    #hamburger-menu li {
-        width:40vw;
-        text-align: left;
-        list-style-type: none;
-        line-height: 9vw;
-        margin-bottom:-1%;
-        padding-bottom:5%;
-        padding-left:5%;
-        border-top:1px solid rgb(239, 166, 164);
-        background-image:linear-gradient(rgb(188,12,6),rgb(93,4,4));
-    }
-    
-    #hamburger-menu a {
-        color: rgb(254, 252, 243);
-        padding-right:50%;
-        font-size: 6vw;
-        text-decoration: none;
-        text-align:center;
-        white-space:nowrap;
-    }
-    
-    #hamburger-menu a:hover {
-        text-decoration: underline;
-    }
-    
-    #hamburger-input:checked + #hamburger-menu #sidebar-menu {
-        visibility: visible;
-        right: 0;
-    }
-
-    #hamburger-input:checked ~ .overlay{
-        visibility: visible;
-        opacity: 0.4;
-     }
-      
-    #hamburger-menu {
-        display: inline;
-    }
-    /*end hamburger menu styling*/
-
     .audio{
         height: 30vw;
     }
@@ -502,15 +405,6 @@ footer{
         padding-bottom:5%;
     }
 
-    #visit{
-        margin-left:10vw;
-        list-style:circle;
-    }
-
-    #visit li{
-        font-weight: bold;
-    }
-
     nav a:link{
         font-family:Georgia, 'Times New Roman', Times, serif;
         color: white;
@@ -529,49 +423,6 @@ footer{
         color:rgb(255, 234, 0);
     }
 
-    /* Dropdown menu styling*/
-    .dropbtn {
-    color: white;
-    cursor: pointer;
-    padding-left: 10%;
-    width: 153%;
-    }
-
-    .dropbtn:hover{
-        color: yellow;
-    }
-    
-    .dropdown {
-    position: relative;
-    display: inline-block;
-    }
-    
-    .dropdown-content {
-    display: none;
-    position: absolute;
-    margin-left:20%;
-    border:1px black solid;
-    width: 165%;
-    z-index: 1;
-    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
-    }
-    
-    .dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    }
-    
-    .dropdown-content a:hover {
-        color: yellow;
-    }
-    
-    .dropdown:hover .dropdown-content {
-    display: block;
-    color: yellow;
-    }
-
-    /*end dropdown styles*/
 
     footer{
         background: rgb(188,12,6);
