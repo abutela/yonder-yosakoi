@@ -99,7 +99,7 @@ dd{
 }
 
 .visit h3{
-    font-size:2vw;
+    font-size:18pt;
     margin-bottom:-5%;
     margin-top:3%;
 }
@@ -140,7 +140,7 @@ footer{
         float:left;
         width:100%;
         height:14vw;
-        margin-top:-18%;
+        margin-top:-20%;
         background-image:linear-gradient(
             rgb(93,4,4),
             rgb(188,12,6))
@@ -254,7 +254,7 @@ footer{
         text-align: center;
         font-weight:bold;
         font-size: 16pt;
-        margin-left:3%;
+        margin-left:0%;
     }
 
     nav li{
@@ -315,27 +315,28 @@ footer{
     }
 
     #main{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-left:16%;
+        padding-left:17%;
         padding-top: 15%;
         width: 80%;
     }
 
     h1{
-        font-size:3vw;
+        font-size:32pt;
+        line-height:125%;
     }
 
     h2{
-        font-size:2.5vw;
+        font-size:26pt;
 
     }
 
     h3{
-        font-size:2vw;
+        font-size:18pt;
     }
 
     article{
         display:inline-block;
+        font-size:16pt;
         margin-left: 5%;
         margin-top:0%;
         padding: 2% 5% 1% 5%;
