@@ -56,12 +56,12 @@ p{
 
 /*Video and image styling*/
 iframe{
-    width: 60vw;
-    height: 52vw;
+    width: 35vh;
+    height: 25vh;
     border-top:rgb(93, 4, 4) 5px solid;
     border-bottom: rgb(93, 4, 4) 5px solid;
-    border-left: rgb(93, 4, 4) 50px solid;
-    border-right: rgb(93, 4, 4) 50px solid;
+    border-left: rgb(93, 4, 4) 15px solid;
+    border-right: rgb(93, 4, 4) 15px solid;
 }
 
 .video{
@@ -139,15 +139,15 @@ footer{
     #redband{
         float:left;
         width:100%;
-        height:14vw;
-        margin-top:-20%;
+        height:7.25vh;
+        margin-top:-19%;
         background-image:linear-gradient(
             rgb(93,4,4),
             rgb(188,12,6))
     }
 
     .audio{
-        height: 30vw;
+        height: 20vh;
     }
 
     article{
@@ -234,6 +234,10 @@ footer{
     iframe{
         width: 72vw;
         height: 52vw;
+        border-top:rgb(93, 4, 4) 5px solid;
+        border-bottom: rgb(93, 4, 4) 5px solid;
+        border-left: rgb(93, 4, 4) 50px solid;
+        border-right: rgb(93, 4, 4) 50px solid;
     }
 
     .audio{
@@ -346,6 +350,10 @@ footer{
     iframe{
         width: 38vw;
         height: 28vw;
+        border-top:rgb(93, 4, 4) 5px solid;
+        border-bottom: rgb(93, 4, 4) 5px solid;
+        border-left: rgb(93, 4, 4) 50px solid;
+        border-right: rgb(93, 4, 4) 50px solid;
     }
 
     .video{

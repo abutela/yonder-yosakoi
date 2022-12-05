@@ -4,11 +4,11 @@
     border:1px rgba(239, 166, 164,0.5) solid;
     border-radius:10px;
     color: white;
-    padding:1vw 3vw 1vw 3vw;
+    padding:.75% 3% .5% 3%;
     font-size: 24pt;
     cursor: pointer;
-    margin-left:85vw;
-    margin-top:-17.3vw;
+    margin-left:85%;
+    margin-top:-18%;
     float:left;
   }
   
