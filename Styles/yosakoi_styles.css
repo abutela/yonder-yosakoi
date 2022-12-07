@@ -196,6 +196,20 @@ footer{
         height: 20vh;
     }
 
+    /*form styling*/
+    form{
+        width:90%;
+        background-color:white;
+        margin-top:10%;
+    }
+
+    input, select, textarea {
+        margin-bottom: 5%;
+        font-family: 'Inter', sans-serif;
+        font-size:16pt;
+        width:100%;
+    }
+
     article{
         display:inline-block;
     }
@@ -330,6 +344,16 @@ footer{
 
     nav a:active{
         color:rgb(255, 234, 0);
+    }
+
+    /*form styling*/
+    form{
+        width:75%;
+    }
+
+    input,select,textarea{
+        font-size:16pt;
+        font-family: 'Inter', sans-serif;
     }
 
     /*footer styling*/    
