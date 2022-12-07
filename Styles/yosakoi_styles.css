@@ -14,31 +14,77 @@ header{
     padding-top: 15%;
     width: 100%;
     height: 13.2vh;
+    font-size: 14pt;
+}
+
+sup {
+    font-size:x-small; 
+    vertical-align:super;
 }
 
 /*header font styles*/
 h1{
-    font-size:7vw;
+    font-size:4vh;
     font-weight:bold;
     padding-bottom: 4%;
 }
 h2{
-    font-size:5vw;
+    font-size:3.5vh;
     font-weight:bold;
     padding-bottom: 2%;
     line-height:100%;
 
 }
 h3{
-    font-size:4vw;
+    font-size:2vh;
     font-weight:bold;
     padding-bottom:4%;
+}
+
+.ea{
+    font-weight: 600;
+}
+
+/*form styling*/
+form{
+    width:50%;
+    border:1px rgb(188,12,6) solid;
+    background-color:rgba(255,255,255,0.9);
+    border-radius:10px;
+    padding:5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+input, select, textarea {
+    display: block;
+    margin-bottom: 4%;
+    }
+
+label {
+    display: block;
+    }
+
+textarea{
+    width:100%;
+    resize:none;
+}
+
+#buttons {
+    display:grid;
+    grid-template-columns:45% 10% 45%;
+}
+
+#submitbtn{
+    grid-column-start:1;
+}
+
+#resetbtn{
+    grid-column-start:3;
 }
 
 /*article styling*/
 article{
     text-align: left;
-    font-size: 16pt;
     border: 2px rgb(188, 12, 6) solid;
     border-radius:10px;
     margin-left:2%;
@@ -52,6 +98,7 @@ article{
 
 p{
     padding-bottom:2%;
+    
 }
 
 /*Video and image styling*/
@@ -229,7 +276,6 @@ footer{
     }
 
     /*image and video styling*/
-
     iframe{
         width: 72vw;
         height: 52vw;
@@ -317,6 +363,25 @@ footer{
         grid-template-columns:25% 75%;
     }
 
+    #logo{
+        width:11.3vw;
+        height:11.3vw;
+        padding-left:3.5%;
+        padding-right:3.5%;
+        padding-top:4%;
+        padding-bottom:4%;
+        grid-column-start:1;
+        background-color:rgb(188,12,6);
+        border-right:rgb(93, 4, 4) 1px solid;
+    }
+    #banner{
+        margin-left:-15.9%;
+        width: 117%;
+        height: 13.2vw;
+        grid-column-start: 2;
+        border-bottom:rgb(93, 4, 4) 1px solid;
+    }
+
     #main{
         padding-left:17%;
         padding-top: 15%;
@@ -346,6 +411,7 @@ footer{
         width: 80%;
     }
     
+    /*Audio/video styling*/
     iframe{
         width: 38vw;
         height: 28vw;
@@ -364,25 +430,7 @@ footer{
         height: 8vw;
     }
 
-    #logo{
-        width:11.3vw;
-        height:11.3vw;
-        padding-left:3.5%;
-        padding-right:3.5%;
-        padding-top:4%;
-        padding-bottom:4%;
-        grid-column-start:1;
-        background-color:rgb(188,12,6);
-        border-right:rgb(93, 4, 4) 1px solid;
-    }
-    #banner{
-        margin-left:-15.9%;
-        width: 117%;
-        height: 13.2vw;
-        grid-column-start: 2;
-        border-bottom:rgb(93, 4, 4) 1px solid;
-    }
-
+    /*definition list styling*/
     dl{
         margin-left: 5%;
     }
@@ -393,6 +441,7 @@ footer{
         margin-bottom:1%;
     }
 
+    /*navigation styling*/
     nav{
         position: fixed;
         width: 13%;
@@ -433,7 +482,7 @@ footer{
         color:rgb(255, 234, 0);
     }
 
-
+    /*footer styling*/
     footer{
         background: rgb(188,12,6);
         opacity:1;

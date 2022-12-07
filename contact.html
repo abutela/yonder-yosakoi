@@ -19,19 +19,19 @@
                 class="desktop tablet"
                 src="images/logo.png" 
                 alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
-            >
+            ><!--Image credit Ashley Butela-->
             <img 
-            class="mobile"
-            src="images/logo_background.png" 
-            alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
-        >
+                class="mobile"
+                src="images/logo_background.png" 
+                alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+            ><!--Image credit Ashley Butela-->
         </div>
         <div id="banner">
             <img 
                 class="desktop tablet"
                 src="images/banner-notext_desktop.jpg"
-                alt="a bright banner featuring a bridge, hairpin, and naruko, with the word 'yosakoi' in brushstroke at lower left"
-            >
+                alt="a bright banner featuring a bridge, hairpin, and naruko"
+            ><!--Image credit Ashley Butela-->
             <div 
                 class="mobile"
                 id="whiteband"
@@ -87,19 +87,42 @@
         </nav>
     </header>
     <div id = "main">
-        <article id="contact">
+        <article>
             <h1>Contact Me</h1>
-            <p><br><br><br class="desktop">
-                While I am by no means an expert on yosakoi, I did spent a wonderful
-                semester on a team while studying abroad in Kyoto and participated in
-                two festivals.<br><br>
+            <p>
+                While I am by no means an expert on yosakoi, I did spend a wonderful
+                semester as a member on a team while studying abroad in Kyoto and 
+                participated in two festivals.<br><br>
                 If you have any questions I didn't address elsewhere on the site, or
                 if you have found a problem with the site or have a suggestion to improve
-                it, I welcome your contact!<br><br><br><br class="desktop"><br class="desktop">
-                
-                <!--TODO If this site is ever actually live find a better way to hide the e-mail address from bots.-->
-                You can get in touch <a href="mailto:butela.ashley+yosakoi&#64;gmail&#46;com">here.</a>
-            </p><br><br><br>
+                it, I welcome your contact!
+             </p>   
+            <div style="background-image:url(./images/kochi-map3.jpg)">
+                <!--Image taken by Ashley Butela, drawn by Unknown; found near JR Kochi Station in Kochi, Japan-->
+                <form action="mailto:butela.ashley+yosakoi@gmail.com" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="reference">Area of Concern:</label>
+                    <select name="reference" id="reference">
+                        <option value="question">Questions about Yosakoi</option>
+                        <option value="concern">Trouble with the Site</option>
+                        <option value="improvement">Site Suggestions</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="10" cols="50"></textarea>
+                    <div id="buttons">
+                        <input id="selectbtn" type="submit" value="Submit">
+                        <input id="resetbtn" type="reset" value="Reset">
+                    </div>
+                    </form>
+                </div>
+            <br><br><br>
         </article>
     </div>
 

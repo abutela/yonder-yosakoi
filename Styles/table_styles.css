@@ -1,0 +1,96 @@
+
+/*small tablet styling*/
+@media (min-width:518) and (max-width:868){
+    table{
+        margin-left:-8%;
+        width:100%;
+        font-size:14pt;
+        white-space:nowrap;
+    }
+
+    .wide-spacing{
+        border-spacing:12px;
+        border-collapse:separate;
+    }
+
+    th,td{
+        padding:1% 2% 1% 2%;
+    }
+    th{
+        font-weight:bold;
+        text-decoration-line:underline;
+        padding-bottom:1%;
+    }
+
+    #notes{
+        font-size:12pt;
+        margin-left:-3%;
+    }
+
+    #j-lyrics{
+        font-size:12pt;
+        line-height:181%;
+    }
+}
+
+/*standard tablet styling*/
+@media (min-width:769) and (max-width:1024){
+    /*table styling*/
+    table{
+        margin-left:-8%;
+        width:100%;
+        font-size:14pt;
+        white-space:nowrap;
+    }
+
+    .wide-spacing{
+        border-spacing:30px;
+        border-collapse:separate;
+    }
+
+    th,td{
+        padding:1% 2% 1% 2%;
+    }
+    th{
+        font-weight:bold;
+        text-decoration-line:underline;
+        padding-bottom:1%;
+    }
+
+    #notes{
+        font-size:12pt;
+        margin-left:-3%;
+    }
+
+    #j-lyrics{
+        font-size:12pt;
+        line-height:181%;
+    }
+}
+
+/*desktop styling*/
+@media (max-width:1025){
+    table{
+        width:100%;
+    }
+
+    .wide-spacing{
+        border-spacing:3vw;
+        border-collapse:separate;
+    }
+
+    th{
+        font-weight:bold;
+        text-decoration-line:underline;
+        padding-bottom:1%;
+    }
+
+    #notes{
+        font-size:12pt;
+    }
+
+    #j-lyrics{
+        white-space:nowrap;
+        line-height:155%;
+    }
+}
