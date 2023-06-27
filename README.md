@@ -1,0 +1,8 @@
+# Yonder Yosakoi
+
+
+During a whirlwind year studying abroad at Ritsumeikan University, Kinugasa Campus in Kyoto, Japan, Ashley found herself entranced by a dance called "yosakoi" while visiting Sanjo Street one day in March. As the US school year begins at the second half of the Japanese, she had been unable to join any student groups, but with the new school year about to begin the time was nigh to choose. Her first choice was horseback riding, but that group proved both too costly and too demanding on time. By chance she remembered that day on Sanjo and saw a group called Kyoto Team Sarara, a yosakoi student club. She joined and though only in Japan for another five months fell madly in love with yosakoi dance and her team, practicing twice a week and occasionally day-long weekends to prepare for the two festivals she was able to participate in.
+
+From that time she has tried to spread the word of yosakoi, first by using it as the topic of her capstone project at the University of Pittsburgh in 2011. However, not being from a dance background herself, she was unable to pull together a group to create a Pittsburgh-based team. 
+
+This website is a second chance to spread the word of yosakoi, in the hopes that someone with more ability may take it as inspiration to spread the joy throughout the US and beyond. It has been created as the final project for Web Development at the Community College of Allegheny County for the semester ending December 2022.

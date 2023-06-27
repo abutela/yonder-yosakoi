@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--        Author: Ashley Butela           -->     
+<!--Created between 11/21/22 - 12/6/22 for  -->
+<!--    CIT-125 Web Design final at CCAC    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yonder Yosakoi - Accessories</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/yosakoi_styles.css">
+    <link rel="stylesheet" href="./styles/dropstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img 
+                class="desktop tablet"
+                src="images/logo.png" 
+                alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+            ><!--Image credit Ashley Butela-->
+            <img 
+                class="mobile"
+                src="images/logo_background.png" 
+                alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+            ><!--Image credit Ashley Butela-->
+        </div>
+        <div id="banner">
+            <img 
+                class="desktop tablet"
+                src="images/banner-notext_desktop.jpg"
+                alt="a bright banner featuring a bridge, hairpin, and naruko"
+            ><!--Image credit Ashley Butela-->
+            <div 
+                class="mobile"
+                id="whiteband"
+            >&nbsp;</div>
+            <div 
+                class="mobile"
+                id="redband"
+            >&nbsp;</div> 
+        </div>
+        <nav class="desktop">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="visit.html">Festivals</a></li>
+                <li><a href="learn.html" style="white-space:nowrap">Dance Steps</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="rules.html">Rules to Join</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <nav class="tablet">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="visit.html">Festivals</a></li>
+                <li><a href="learn.html">The Dance</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <div class="burger-menu">
+                <button onclick="myFunction()" class="burgerbtn">&#8801;</button>
+                <div id="myDropdown" class="burger-content">
+                    <a href="index.html">About</a>
+                    <a href="history.html">History</a>
+                    <a href="terms.html" >Terms</a>
+                    <a href="listen.html">Listen</a>
+                    <a href="watch.html">Watch</a>
+                    <a href="visit.html">Festivals</a>
+                    <a href="learn.html">Dance Steps</a>
+                    <a href="accessories.html">Accessories</a>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+                <div class="overlay">&nbsp;</div>
+            </div>
+        </nav>
+    </header>
+    <div id = "main">
+        <article>
+            <h1>Let's Learn the Dance!</h1>
+            <p>
+                While yosakoi has grown to encompass many styles of dance over the years, the original choreography is still learned in schools today.
+                This video first shows the dance in pace with the song Yosakoi Naruko Odori, then goes over the steps more slowly, one at a time.
+            </p>
+            <div class="video">
+                <iframe 
+                    src="https://www.youtube.com/embed/V8dUfbzVrPg" 
+                    title="Let's Learn to Dance Yosakoi!" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                >
+                </iframe>
+                <!--Video credit to user みんなでよさこいプロジェクト(Minna de Yosakoi Project) on YouTube-->
+            </div>
+        </article>
+    </div>
+
+    <footer>&copy; Ashley Butela 2022</footer>
+
+    <script>
+        /*Script and general dropdown assistance credit https://www.w3schools.com/howto/howto_js_dropdown.asp*/
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.burgerbtn')) {
+            var dropdowns = document.getElementsByClassName("burger-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>

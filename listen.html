@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<!--        Author: Ashley Butela           -->     
+<!--Created between 11/21/22 - 12/6/22 for  -->
+<!--    CIT-125 Web Design final at CCAC    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yonder Yosakoi - Accessories</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/yosakoi_styles.css">
+    <link rel="stylesheet" href="./styles/dropstyles.css">
+    <link rel="stylesheet" href="./styles/table_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img 
+                class="desktop tablet"
+                src="images/logo.png" 
+                alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+            ><!--Image credit Ashley Butela-->
+            <img 
+                class="mobile"
+                src="images/logo_background.png" 
+                alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+            ><!--Image credit Ashley Butela-->
+        </div>
+        <div id="banner">
+            <img 
+                class="desktop tablet"
+                src="images/banner-notext_desktop.jpg"
+                alt="a bright banner featuring a bridge, hairpin, and naruko, with the word 'yosakoi' in brushstroke at lower left"
+            ><!--Image credit Ashley Butela-->
+            <div 
+                class="mobile"
+                id="whiteband"
+            >&nbsp;</div>
+            <div 
+                class="mobile"
+                id="redband"
+            >&nbsp;</div> 
+        </div>
+        <nav class="desktop">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="visit.html">Festivals</a></li>
+                <li><a href="learn.html" style="white-space:nowrap">Dance Steps</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="rules.html">Rules to Join</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <nav class="tablet">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="visit.html">Festivals</a></li>
+                <li><a href="learn.html">The Dance</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <div class="burger-menu">
+                <button onclick="myFunction()" class="burgerbtn">&#8801;</button>
+                <div id="myDropdown" class="burger-content">
+                    <a href="index.html">About</a>
+                    <a href="history.html">History</a>
+                    <a href="terms.html" >Terms</a>
+                    <a href="listen.html">Listen</a>
+                    <a href="watch.html">Watch</a>
+                    <a href="visit.html">Festivals</a>
+                    <a href="learn.html">Dance Steps</a>
+                    <a href="accessories.html">Accessories</a>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+                <div class="overlay">&nbsp;</div>
+            </div>
+        </nav>
+    </header>
+    <div id = "main">
+        <article>
+            <h1>Let's Listen to Some Yosakoi Music!</h1>
+            <h2><em>Yosakoi Naruko Odori</em> -  The Festival Theme</h2>
+            <div class="video">
+                <iframe
+                    class = "audio" 
+                    src="https://www.youtube.com/embed/MWCsXBWAXb8" 
+                    title="Yosakoi Naruko Odori" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    >
+                </iframe>
+                <!--Video credit to user VancitysoranMUSICS on YouTube-->
+            </div>
+            <br><br>
+            <h2><em>Yosakoi Bushi</em> - The Original Folk Song</h2>
+            <div class="video">
+                <iframe 
+                    class = "audio"
+                    src="https://www.youtube.com/embed/H_k9t7R1lDo" 
+                    title="Yosakoi Bushi" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    >
+                </iframe>
+                <!--Video credit to user kokalokalo on YouTube-->
+            </div>
+        </article>
+        <article style="margin-top:-5%">
+            <h1>What are those Lyrics??</h1><br class="tablet">
+            <h2 class ="desktop">Yosakoi Naruko Odori</h2>
+            <h2 class ="tablet" style="margin-left:-3%">Yosakoi Naruko Odori</h2>
+            <table class="desktop tablet wide-spacing">
+                <tr>
+                    <th>Japanese Lyrics</th>
+                    <th>English Approximation</th>
+                </tr>
+                <tr>
+                    <!--All translations done by Ashley Butela, accuracy not guaranteed-->
+                    <td id="j-lyrics">
+                        ※ Yocchoré yo, yocchoré yo<br>
+                        ※ Yocchoré yocchoré yocchoré yo<br>
+                        ※ Yocchoré yo, yocchoré yo<br>
+                        ※ Yocchoré yocchoré yocchoré yo<br><br>
+
+                        ※ Kochi no joka e kité miiya (soré!)<br>
+                        ※ Jinma mo banba mo you odoru<br>
+                        ※ Naruko ryouté ni you odoru, you odoru<br><br>
+
+                        Tosa no (yoiya sano sano sano)<br>
+                        <span class="desktop">Kochi no Harimaya-bashi dé (yoiya sano sano sano)<br></span>
+                        <span class="tablet">Kochi no Harimaya-bashi dé ("")<br></span>
+                        Bousan kanzashi kau wo mita (soré!)<br>
+                        Yosakoi, yosakoi (hoi hoi)<br> <br>
+
+                        (※ repeats)<br> <br>
+
+                        Mimasé (yoiya sano sano sano)<br>
+                        <span class="desktop">Misémasho urado wo akete (yoiya sano sano sano)<br></span>
+                        <span class="tablet">Misémasho urado wo akete ("")<br></span>
+                        Tsuki no meisho wa Katsurahama (soré!)<br>
+                        Yosakoi, yosakoi (hoi hoi!)<br><br>
+
+                        (※ repeats)<br> <br>
+
+                        Tosa no (yoiya sano sano sano)<br>
+                        <span class="desktop">Meibutsu sango ni kujira (yoiya sano sano sano)<br></span>
+                        <span class="tablet">Meibutsu sango ni kujira ("")<br></span>
+                        Kami ni kiito ni katsuobushi (soré!)<br>
+                        Yosakoi, yosakoi (hoi hoi!)<br><br>
+
+                        (※ repeats)<br> <br>
+
+                        Yuutachi (yoiya sano sano sano)<br>
+                        <span class="desktop">Ikanchiya oranku no ike nya (yoiya sano sano sano)<br></span>
+                        <span class="tablet">Ikanchiya oranku no ike nya ("")<br></span>
+                        Shiofuku sakana ga oyogiyoru(soré!)<br>
+                        Yosakoi, yosakoi(hoi hoi!)
+                    </td>
+                    <td>
+                        ※ Clear the way! Clear the way!<br>
+                        ※ Clear it, clear it, clear the way!<br>
+                        ※ Clear the way! Clear the way!<br>
+                        ※ Clear it, clear it, clear the way!<br><br>
+
+                        ※ Come to the Kochi castletown<br>
+                        ※ Even gram and pap are dancing a lot<br>
+                        ※ With a naruko in each hand dancing, dancing<br><br>
+
+                        In Tosa<sup>1</sup><br>
+                        In Kochi at the Harimaya Bridge<br>
+                        I saw a monk buy a ladies' hair pick (Oh!)<br>
+                        Come at night, Come at night (hey hey!)<br><br>
+
+                        (※ repeats)<br> <br>
+
+                        Better than you imagine*<sup>2</sup><br>
+                        I'll show you, open the back door<sup>3</sup><br>
+                        Katsura Bay is famous for the moon (oh!)<br>
+                        Come at night, Come at night <br><br>
+
+                        (※ repeats)<br> <br>
+
+                        Tosa is<br>
+                        Famous for coral and whales<br>
+                        And paper and raw silk and katsuobushi<sup>4</sup>(oh!)<br>
+                        Come at night, Come at night<br><br>
+
+                        (※ repeats)<br> <br>
+
+                        No matter what you say<sup>5</sup><br>
+                        In the pond<sup>6</sup> of our land<br>
+                        The whales<sup>7</sup> swim by<br>
+                        Come at night, come at night(hey hey!)<br> <br>
+                    </td>
+                </tr>
+            </table>
+            <div class="mobile">
+                <p>
+                    <h2>Yosakoi Naruko Odori</h2><br>
+                    Japanese Lyrics<br>
+                    <span class="ea">English Approximation</span><br><br>
+                    ※ Yocchoré yo! yocchoré yo!<br>
+                    <span class="ea">※ Clear the way! Clear the way!</span><br>
+                    ※ Yocchoré(x3) yo!<br>
+                    <span class="ea">※ Clear it, clear it, clear the way!</span><br><br>
+
+                    (repeat)<br><br>
+
+                    ※ Kochi no jōka e kité miiya<br>
+                    <span class="ea">※ Come to the Kochi castletown</span><br>
+                    ※ Jinma mo banba mo yō odoru<br>
+                    <span class="ea">※ Even gram and pap are dancing a lot</span><br>
+                    ※ Naruko ryōté ni yō odoru, yō odoru<br>
+                    <span class="ea">※ With a naruko in each hand dancing, dancing</span><br><br>
+
+                    Tosa no (yoiya sano(x3))<br>
+                    <span class="ea">In Tosa (heave ho(x2))<sup>1</sup></span><br>
+                    Kōchi no Harimaya-bashi dé (yoiya sano(x3))<br>
+                    <span class="ea">In Kochi at the Harimaya Bridge(heave ho(x2))</span><br>
+                    Bōsan kanzashi kau wo mita (soré!)<br>
+                    <span class="ea">I saw a monk buy a ladies' hair pick (Oh!)</span><br>
+                    Yosakoi, yosakoi (hoi hoi)<br>
+                    <span class="ea">Come at night, Come at night (hey hey!)</span><br><br>
+
+                    (※ repeats)<br><br>
+
+                    Mimasé (yoiya sano(x3))<br>
+                    <span class="ea">Better than you imagine<sup>2</sup>(heave ho(x2))</span><br>
+                    Misémasho urado wo akete (yoiya sano(x3))<br>
+                    <span class="ea">I'll show you, open the back door<sup>3</sup>(heave ho(x2))</span><br>                
+                    Tsuki no meisho wa Katsurahama (soré!)<br>
+                    <span class="ea">Katsura Bay is famous for the moon (oh!)</span><br>                
+                    Yosakoi, yosakoi (hoi hoi!)<br>
+                    <span class="ea">Come at night, come at night(hey hey!)</span><br><br>
+                    
+                    (※ repeats)<br><br>
+
+                    Tosa no (yoiya sano(x3))<br>
+                    <span class="ea">Tosa is (heave ho(x2))</span><br>
+                    Meibutsu sango ni kujira (yoiya sano(x3))<br>
+                    <span class="ea">Famous for coral and whales(heave ho(x2)</span><br>
+                    Kami ni kiito ni katsuobushi (soré!)<br>
+                    <span class="ea">And paper and raw silk and katsuobushi<sup>4</sup>(oh!)</span><br>                
+                    Yosakoi, yosakoi (hoi hoi!)<br>
+                    <span class="ea">Come at night, come at night (hey hey!)</span><br><br>
+
+                    (※ repeats)<br><br>
+
+                    Yūtachi (yoiya sano sano sano)<br>
+                    <span class="ea">No matter what you say<sup>5</sup></span><br>
+                    Ikanchiya oranku no ike nya (yoiya sano(x3))<br>
+                    <span class="ea">In the pond<sup>6</sup> of our land</span><br>
+                    Shiofuku sakana ga oyogiyoru(soré!)<br>
+                    <span class="ea">The whales<sup>7</sup> swim by</span><br>
+                    Yosakoi, yosakoi(hoi hoi!)<br>
+                    <span class="ea">Yosakoi, yosakoi(hey hey!)</span><br><br>
+            </div>
+            <div id="notes">
+                1. Tosa is the historical name for Kochi Prefecture, where Kochi City is located.<br>
+                2. Mimase is a town, and makes a pun with the similar-sounding word following<br>
+                3. Urado is another town, and sounds like "back door"...another pun<br>
+                4. Katsuobushi is a seasoning made of dried tuna.<br>
+                5. This section, per <a href="https://www.worldfolksong.com/">World Folk Song</a>, is a bit of local pride boasting.<br>
+                "Kochi can't be beat - no matter what you say, there are whales in our pond!"<br>
+                6. The "pond" here being the ocean.<br>
+                7. Literally "squirting fish", so likely whales or dolphins.<br>
+            </div>
+        </article>
+    </div>
+
+    <footer>&copy; Ashley Butela 2022</footer>
+
+    <script>
+        /*Script and general dropdown assistance credit https://www.w3schools.com/howto/howto_js_dropdown.asp*/
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.burgerbtn')) {
+            var dropdowns = document.getElementsByClassName("burger-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>
