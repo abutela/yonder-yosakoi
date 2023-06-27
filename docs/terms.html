@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!--        Author: Ashley Butela           -->     
+<!--Created between 11/21/22 - 12/6/22 for  -->
+<!--    CIT-125 Web Design final at CCAC    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yonder Yosakoi - Accessories</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/yosakoi_styles.css">
+    <link rel="stylesheet" href="./styles/dropstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img 
+                class="desktop tablet"
+                src="images/logo.png" 
+                alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+            >
+            <img 
+            class="mobile"
+            src="images/logo_background.png" 
+            alt="yonder yosakoi logo: a white circle with curved words featuring the hint of a naruko"
+        >
+        </div>
+        <div id="banner">
+            <img 
+                class="desktop tablet"
+                src="images/banner-notext_desktop.jpg"
+                alt="a bright banner featuring a bridge, hairpin, and naruko, with the word 'yosakoi' in brushstroke at lower left"
+            >
+            <div 
+                class="mobile"
+                id="whiteband"
+            >&nbsp;</div>
+            <div 
+                class="mobile"
+                id="redband"
+            >&nbsp;</div> 
+        </div>
+        <nav class="desktop">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="visit.html">Festivals</a></li>
+                <li><a href="learn.html" style="white-space:nowrap">Dance Steps</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="rules.html">Rules to Join</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <nav class="tablet">
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="watch.html">Watch</a></li>
+                <li><a href="visit.html">Festivals</a></li>
+                <li><a href="learn.html">The Dance</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <div class="burger-menu">
+                <button onclick="myFunction()" class="burgerbtn">&#8801;</button>
+                <div id="myDropdown" class="burger-content">
+                    <a href="index.html">About</a>
+                    <a href="history.html">History</a>
+                    <a href="terms.html" >Terms</a>
+                    <a href="listen.html">Listen</a>
+                    <a href="watch.html">Watch</a>
+                    <a href="visit.html">Festivals</a>
+                    <a href="learn.html">Dance Steps</a>
+                    <a href="accessories.html">Accessories</a>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+                <div class="overlay">&nbsp;</div>
+            </div>
+        </nav>
+    </header>
+    <div id = "main">
+        <article>
+            <h1>Useful Terms to Know</h1>
+            <figure class="mobile">
+                <img 
+                    src="images/banner-notext.jpg"
+                    alt="A colorful banner featuring naruko, kanzashi, and Harimaya bridge"
+                >
+            </figure>
+            <p>
+                Within the world of yosakoi, there's a lot of words you'll probably come across; these are the most common. 
+                I've done my best to give a approximate pronunciation for each word based on English sounds for those with
+                little experience with the Japanese language, but remembering that there are only five vowel sounds (ah, ee, oo, eh, oh)
+                will help you with any other word you may come across!
+            </p>
+            <br>
+            <dl>
+                <dt>yosakoi (yo-sah-coy)</dt>
+                <dd>"come at night"; a dance originating in Kochi Prefecture</dd>
+                <dt>naruko (naw-roo-ko)</dt>
+                <dd>wooden handheld clackers, often painted red</dd>
+                <dt>bosan (boh-sun)</dt>
+                <dd>a monk</dd>
+                <dt>kanzashi (kawn-zah-she)</dt>
+                <dd>a woman's hair comb</dd>
+                <dt>tabi (taw-bee)</dt>
+                <dd>split-toe shoes</dd>
+                <dt>matsuri (mott-soo-ree)</dt>
+                <dd>festivals</dd>
+                <dt>hachimaki (hah-chee-mah-kee)</dt>
+                <dd>headbands</dd>
+            </dl>
+            <figure class="desktop">
+                <img 
+                    src="images/tong-su_yosakoi.jpg"
+                    alt="A team in blue and red costumes dance in New York City"
+                    style="width:30vw; float: left; margin-top:-33%; margin-left:45%;"
+                ><!--Image credit Tong Su via UnSplash.com-->
+                <cite style="margin-left:55%;">Image Credit Tong Su</cite>
+            </figure>
+            <figure class="tablet">
+                <img 
+                    src="images/tong-su_yosakoi.jpg"
+                    alt="A team in blue and red costumes dance in New York City"
+                    style="width:42vw; float: left; margin-top:-55%; margin-left:52%;"
+                ><!--Image credit Tong Su via UnSplash.com-->
+                <cite style="float:right;margin-left:65%;margin-top:-22%;">Image Credit Tong Su</cite>
+            </figure>
+        </article>
+    </div>
+
+    <footer>&copy; Ashley Butela 2022</footer>
+
+    <script>
+        /*Script and general dropdown assistance credit https://www.w3schools.com/howto/howto_js_dropdown.asp*/
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.burgerbtn')) {
+            var dropdowns = document.getElementsByClassName("burger-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>
